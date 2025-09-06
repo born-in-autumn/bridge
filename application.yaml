@@ -1,0 +1,4 @@
+server:
+  port: 3001
+dev:
+  default_redirect_url: "https://space.bilibili.com/16853445?spm_id_from=333.1007.0.0"
