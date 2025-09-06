@@ -5,3 +5,7 @@ edition = "2024"
 
 [dependencies]
 axum = "0.8.4"
+tokio = "1.47.1"
+uuid = { version= "1.18.1", features = ["v4"] }
+config = { version = "0.15.15" ,features = ["yaml"]}
+serde = {version = "1.0.219", features = ["derive"]}
